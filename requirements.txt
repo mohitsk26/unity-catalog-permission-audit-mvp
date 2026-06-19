@@ -1,6 +1,16 @@
+# =========================================================
+
+# Unity Catalog Permission Audit & Drift Detector MVP
+
+#
+
+# Required Python Dependencies
+
+# =========================================================
+
 pandas>=2.2.0
+numpy>=1.26.0
 faker>=25.0.0
 streamlit>=1.35.0
-plotly>=5.22.0
-numpy>=1.26.0
+plotly>=5.0.0
 pyspark>=3.5.0
