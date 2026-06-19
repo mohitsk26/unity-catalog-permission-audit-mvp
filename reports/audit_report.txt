@@ -2,7 +2,7 @@
 Unity Catalog Permission Audit Report
 ==================================================
 
-Generated On : 2026-06-19 14:20:36.907757
+Generated On : 2026-06-19 17:02:09.639272
 
 Validation Files
 -----------------------------
