@@ -1,0 +1,9 @@
+Validation Report
+=========================
+
+File                 : permissions_day1.csv
+Total Records        : 5
+Duplicates Removed   : 0
+Missing Records      : 0
+Invalid Permissions  : 0
+Valid Records        : 5

@@ -1,0 +1,2 @@
+user,role,table_name,permission_day1,permission_day2,drift_status
+analyst01,Data Analyst,customers,SELECT,"SELECT,UPDATE",Permission Changed

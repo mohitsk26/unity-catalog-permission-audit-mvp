@@ -1,0 +1,29 @@
+==================================================
+Unity Catalog Permission Audit Report
+==================================================
+
+Generated On : 2026-06-19 14:20:36.907757
+
+Validation Files
+-----------------------------
+Day 1 : reports/validation_report_permissions_day1.txt
+Day 2 : reports/validation_report_permissions_day2.txt
+
+Drift Summary
+-----------------------------
+Total Drift Records      : 1
+Permission Changes       : 1
+New Permissions Added    : 0
+Permissions Removed      : 0
+
+Risk Level : HIGH
+
+Drift Details
+-----------------------------
+User : analyst01
+Role : Data Analyst
+Table : customers
+Old Permission : SELECT
+New Permission : SELECT,UPDATE
+Status : Permission Changed
+

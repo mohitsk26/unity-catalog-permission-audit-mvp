@@ -1,0 +1,23 @@
+table_name,column_name,pii_type,masking_policy,risk_level
+customers.csv,customer_id,Not PII,No Masking Required,LOW
+customers.csv,customer_name,Not PII,No Masking Required,LOW
+customers.csv,email,Email,SHA256 Hash,MEDIUM
+customers.csv,phone,Phone,Partial Mask (XXXXXX1234),MEDIUM
+customers.csv,pan,PAN,Tokenization,HIGH
+customers.csv,aadhaar,Aadhaar,Full Mask,HIGH
+customers.csv,salary,Not PII,No Masking Required,LOW
+customers.csv,city,Not PII,No Masking Required,LOW
+employees.csv,employee_id,Not PII,No Masking Required,LOW
+employees.csv,employee_name,Not PII,No Masking Required,LOW
+employees.csv,department,Not PII,No Masking Required,LOW
+employees.csv,email,Email,SHA256 Hash,MEDIUM
+employees.csv,phone,Phone,Partial Mask (XXXXXX1234),MEDIUM
+employees.csv,salary,Not PII,No Masking Required,LOW
+permissions_day1.csv,user,Not PII,No Masking Required,LOW
+permissions_day1.csv,role,Not PII,No Masking Required,LOW
+permissions_day1.csv,table_name,Not PII,No Masking Required,LOW
+permissions_day1.csv,permission,Not PII,No Masking Required,LOW
+permissions_day2.csv,user,Not PII,No Masking Required,LOW
+permissions_day2.csv,role,Not PII,No Masking Required,LOW
+permissions_day2.csv,table_name,Not PII,No Masking Required,LOW
+permissions_day2.csv,permission,Not PII,No Masking Required,LOW

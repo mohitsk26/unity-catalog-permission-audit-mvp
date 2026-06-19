@@ -1,0 +1,23 @@
+table_name,column_name,pii_type
+customers.csv,customer_id,Not PII
+customers.csv,customer_name,Not PII
+customers.csv,email,Email
+customers.csv,phone,Phone
+customers.csv,pan,PAN
+customers.csv,aadhaar,Aadhaar
+customers.csv,salary,Not PII
+customers.csv,city,Not PII
+employees.csv,employee_id,Not PII
+employees.csv,employee_name,Not PII
+employees.csv,department,Not PII
+employees.csv,email,Email
+employees.csv,phone,Phone
+employees.csv,salary,Not PII
+permissions_day1.csv,user,Not PII
+permissions_day1.csv,role,Not PII
+permissions_day1.csv,table_name,Not PII
+permissions_day1.csv,permission,Not PII
+permissions_day2.csv,user,Not PII
+permissions_day2.csv,role,Not PII
+permissions_day2.csv,table_name,Not PII
+permissions_day2.csv,permission,Not PII

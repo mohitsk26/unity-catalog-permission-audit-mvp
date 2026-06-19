@@ -1,0 +1,6 @@
+user,role,table_name,permission
+analyst01,Data Analyst,customers,"SELECT,UPDATE"
+finance01,Finance,customers,SELECT
+admin01,Admin,customers,ALL
+hr01,HR,employees,SELECT
+security01,Security,employees,ALL

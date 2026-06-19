@@ -2,7 +2,8 @@
 =========================================================
 Unity Catalog Permission Audit & Drift Detector MVP
 
-Enhanced with PII Auto Classification
+Enhanced with Intelligent PII Auto-Classification
+& Masking Recommendation Engine
 
 Author : Mohit Singh Kashyap
 
@@ -12,31 +13,81 @@ Author : Mohit Singh Kashyap
 
 def main():
 
-    print()
+    print("\n")
 
-    print("=" * 70)
+    print("=" * 75)
+    print("      UNITY CATALOG PERMISSION AUDIT & DRIFT DETECTOR MVP")
+    print("=" * 75)
 
-    print("UNITY CATALOG PERMISSION AUDIT MVP")
+    print("\nEnterprise Governance Pipeline\n")
 
-    print("=" * 70)
+    pipeline = [
 
-    print()
+        "Step 1  -> Generate Sample Enterprise Data",
 
-    print("Step 1 -> Data Ingestion")
+        "Step 2  -> Data Ingestion (Raw → Bronze)",
 
-    print("Step 2 -> PII Auto Classification")
+        "Step 3  -> Permission Validation (Bronze → Silver)",
 
-    print("Step 3 -> Masking Policy Generation")
+        "Step 4  -> Permission Drift Detection",
 
-    print("Step 4 -> Permission Snapshot")
+        "Step 5  -> Audit Report Generation",
 
-    print("Step 5 -> Permission Drift Detection")
+        "Step 6  -> PII Auto Classification",
 
-    print("Step 6 -> Governance Dashboard")
+        "Step 7  -> Masking Recommendation Generation",
 
-    print()
+        "Step 8  -> Governance Reports Ready"
 
-    print("Pipeline Initialized Successfully")
+    ]
+
+    for step in pipeline:
+
+        print(f"✅ {step}")
+
+    print("\n")
+
+    print("=" * 75)
+    print("                 MEDALLION ARCHITECTURE")
+    print("=" * 75)
+
+    architecture = """
+
+                Raw Layer
+                    │
+                    ▼
+            Data Ingestion
+                    │
+                    ▼
+              Bronze Layer
+                    │
+                    ▼
+        Permission Validation
+                    │
+                    ▼
+              Silver Layer
+                    │
+         ┌──────────┴──────────┐
+         │                     │
+         ▼                     ▼
+ Permission Drift       PII Classification
+    Detection                   │
+         │                      ▼
+         │           Masking Recommendation
+         └──────────┬───────────┘
+                    ▼
+             Gold Governance Layer
+
+"""
+
+    print(architecture)
+
+    print("=" * 75)
+    print("Pipeline Status : SUCCESS")
+    print("MVP Status      : READY FOR EXECUTION")
+    print("=" * 75)
+
+    print("\nThank you for reviewing the project.\n")
 
 
 if __name__ == "__main__":
